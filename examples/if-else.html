@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IF/ELSE</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IF/ELSE</title>
 </head>
+
 <body>
-    <if-element conditional="7+7=14">
-        <h1>The calculation is right, good job!</h1>
+	<if-element conditional="7+7=14">
+		<h1>The calculation is right, good job!</h1>
 
-        <else-element>
-            <h1>The calculation wrong, sorry!</h1>
-        </else-element>
-    </if-element>
+		<else-element>
+			<h1>The calculation wrong, sorry!</h1>
+		</else-element>
+	</if-element>
 
-    <script type="module" src="../lib/main.ts"></script>
+	<if-element conditional="number === 2">
+		<h1>The calculation is right!</h1>
+	</if-element>
+
+	<script>
+		const number = 2;
+	</script>
+	<script type="module" src="../lib/main.ts"></script>
 </body>
+
 </html>
